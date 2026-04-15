@@ -5,7 +5,7 @@ const nextConfig = {
     unoptimized: true,
   },
   // Asegúrate de que esto coincida exactamente con el nombre de tu repositorio
-  basePath: '/turismo-bogota',
+  basePath: '/Turismo-Bogota',
 };
 
 export default nextConfig;
