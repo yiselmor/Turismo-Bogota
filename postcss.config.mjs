@@ -1,8 +1,10 @@
-/** @type {import('postcss-load-config').Config} */
-const config = {
-  plugins: {
-    '@tailwindcss/postcss': {},
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true,
   },
-}
+  basePath: '/turismo-bogota',
+};
 
-export default config
+export default nextConfig;
